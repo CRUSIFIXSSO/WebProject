@@ -25,7 +25,7 @@ class TeaModel {
         return $types;
     }
 
-    //Get coffeeEntity objects from the database and return them in an array.
+    //Get teaEntity objects from the database and return them in an array.
     function GetteaByType($type) {
         require 'Credentials.php';
 
